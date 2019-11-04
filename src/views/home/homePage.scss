@@ -1,0 +1,34 @@
+@import '../../styles/element-variables.scss';
+
+html,
+body {
+	height: 100%;
+
+	.el-container {
+		height: 100%;
+	}
+}
+
+// .el-header,
+// .el-footer {
+// 	background-color: #B3C0D1;
+// 	color: #333;
+// 	text-align: center;
+// 	line-height: 60px;
+// }
+
+.el-aside {
+	height: 100%;
+	// background-color: $--avatar-background-color;
+	// color: #333;
+	// text-align: center;
+	// line-height: 60px;
+}
+
+.el-main {
+	height: 100%;
+	// background-color: #D3DCE6;
+	// color: #F00;
+	// text-align: center;
+	// line-height: 60px;
+}
