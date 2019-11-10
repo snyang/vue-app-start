@@ -26,4 +26,3 @@ npm global install element-theme
 - folder: views, for pages
 - element-ui
   - user Element.name for JSX tag. e.g. <Menu.name />
-
