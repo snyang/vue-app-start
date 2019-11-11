@@ -12,7 +12,7 @@ export default class ApplicationData {
 					label: 'Group One',
 					subMenu: [
 						{
-							url: '/test/item-one',
+							url: '/page/test/item-one',
 							label: 'item one',
 						},
 						{

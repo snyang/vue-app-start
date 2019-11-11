@@ -2,7 +2,6 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import About from '../views/about';
 import TestPage from '@/views/test/testPage';
-import Home from '@/views/home/homePage';
 import DefaultPage from '@/views/home/defaultPage';
 
 Vue.use(VueRouter);
@@ -18,7 +17,7 @@ const routes = [
 		component: About,
 	},
 	{
-		path: '/test/:content',
+		path: '/page/test/:content',
 		component: TestPage,
 		props: true,
 	},

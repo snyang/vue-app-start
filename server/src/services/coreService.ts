@@ -14,7 +14,7 @@ export class CoreService implements ServiceInterface {
 	}
 
 	echo(request: Request, response: Response) {
-		response.json({ message: 'hellow~~~' });
+		response.json({ message: 'Hello~~~' });
 	}
 
 	shutdown(request: Request, response: Response) {

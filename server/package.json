@@ -1,0 +1,27 @@
+{
+	"name": "vue-app-start-server",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "npx ts-node ./src/startServer.ts",
+		"watch": "nodemon ./src/startServer.ts"
+	},
+	"dependencies": {
+		"core-js": "^3.4.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.2",
+		"eslint": "^6.4.0",
+		"eslint-config-tslint": "^0.2.1",
+		"eslint-plugin-vue": "^5.0.0",
+		"graceful-fs": "^4.2.3",
+		"gulp": "^4.0.2",
+		"gulp-shell": "^0.7.1",
+		"lint-staged": "^9.4.2",
+		"nodemon": "^1.19.4",
+		"require-dir": "^1.2.0",
+		"ts-node": "^8.5.0",
+		"typescript": "^3.6.4"
+	}
+}
