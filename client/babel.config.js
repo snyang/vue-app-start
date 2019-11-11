@@ -14,4 +14,8 @@ module.exports = {
 			},
 		],
 	],
+	exclude: [
+		'./src/server'
+	]
+
 };

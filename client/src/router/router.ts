@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import About from '../views/about';
 import TestPage from '@/views/test/testPage';
 import Home from '@/views/home/homePage';
+import DefaultPage from '@/views/home/defaultPage';
 
 Vue.use(VueRouter);
 
@@ -10,7 +11,7 @@ const routes = [
 	{
 		path: '/',
 		name: 'home',
-		component: Home,
+		component: DefaultPage,
 	},
 	{
 		path: '/about',
@@ -24,7 +25,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-	mode: 'history',
+	// mode: 'history',
 	base: '/',
 	routes,
 });

@@ -8,8 +8,8 @@
 
 > NOTE: the el utility works in nodejs 11 only.
 ```sh
-npm global install @vue/cli
-npm global install element-theme
+npm install @vue/cli -g
+npm install element-theme -g
 ```
 
 ### Coding Guidelines

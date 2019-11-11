@@ -9,6 +9,9 @@ gulp.task('serve', shell.task(['vue-cli-service serve']));
 // build for production
 gulp.task('build', shell.task(['vue-cli-service build']));
 
+// watch and watch for production
+gulp.task('watch', shell.task(['vue-cli-service build --mode development --watch']));
+
 // inspect internal webpack config
 gulp.task('inspect', shell.task(['vue-cli-service inspect']));
 
